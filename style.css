@@ -4,14 +4,14 @@
    ============================================================ */
 
 :root{
-  --navy:#1E3A8A; --navy-dark:#172554; --navy-soft:#EEF2FF;
-  --blue:#2563EB; --blue-dark:#1D4ED8; --sky:#38BDF8;
+  --navy:#6B3A8F; --navy-dark:#4B246B; --navy-soft:#F3EAF8;
+  --blue:#8050A3; --blue-dark:#633681; --sky:#B89BCB;
   --amber:#F59E0B; --amber-bg:#FEF3C7; --amber-ink:#92400E; --amber-line:#FDE68A;
   --green:#10B981; --green-bg:#ECFDF5; --green-ink:#065F46; --green-line:#A7F3D0;
   --red:#EF4444; --red-dark:#DC2626; --red-bg:#FEF2F2; --red-ink:#991B1B; --red-line:#FECACA;
   --info-bg:#EFF6FF; --info-ink:#1E40AF; --info-line:#BFDBFE;
 
-  --canvas:#F8FAFC; --well:#F1F5F9; --card:#FFFFFF;
+  --canvas:#FBF8FC; --well:#F4EFF7; --card:#FFFFFF;
   --edge:#E2E8F0; --edge2:#CBD5E1;
   --ink:#0F172A; --meta:#475569; --dim:#94A3B8;
 
@@ -312,3 +312,31 @@ button:disabled{background:var(--dim)!important;color:#fff!important;cursor:not-
   .rp-page table{break-inside:avoid;}
   @page{ size:A4 portrait; margin:12mm; }
 }
+
+
+/* ---------- Purple & gold identity refresh ---------- */
+:root{
+  --navy:#6B3A8F; --navy-dark:#4B246B; --navy-soft:#F3EAF8;
+  --blue:#8050A3; --blue-dark:#633681; --sky:#B89BCB;
+  --canvas:#FBF8FC; --well:#F4EFF7; --edge:#E8DFED; --edge2:#D5C6DF;
+  --ink:#281B30; --meta:#66566F; --dim:#9B8BA3; --gold:#C7A65A; --gold-soft:#F7F0DF;
+}
+:focus-visible{outline-color:var(--gold);} a{color:var(--blue);}
+.b-pri{background:linear-gradient(135deg,#754596 0%,#5B2F7A 100%);}
+.b-pri:hover:not(:disabled){background:linear-gradient(135deg,#633681 0%,#48215F 100%);}
+.b-sec{background:#8050A3;} .b-sec:hover:not(:disabled){background:#633681;}
+.b-txt{color:var(--blue);}
+.auth-logo{background:#fff;border:1px solid #E8DDBF;box-shadow:0 5px 18px rgba(75,36,107,.10);}
+.auth-emblem{width:48px;height:48px;object-fit:contain;}
+.brand-emblem{display:block;width:100%;height:100%;object-fit:contain;}
+.tb-mark{background:rgba(255,255,255,.13);border:1px solid rgba(232,215,174,.42);overflow:hidden;}
+.topbar{background:linear-gradient(110deg,#4B246B 0%,#6B3A8F 58%,#8050A3 100%);border-bottom:2px solid rgba(199,166,90,.72);}
+.hero{background:radial-gradient(circle at 92% 8%,rgba(199,166,90,.20),transparent 34%),linear-gradient(130deg,#4B246B 0%,#6B3A8F 60%,#8050A3 100%);border:1px solid rgba(199,166,90,.30);}
+.hero .date,.stamp-b .l{color:#E6D8F0;} .hero .who,.stamp-b .n{color:#F4ECF8;}
+.side{background:linear-gradient(180deg,#4B246B 0%,#5C3278 58%,#45205F 100%);}
+.sn-i.on{background:rgba(199,166,90,.22);color:#FFF4D8;box-shadow:inset 3px 0 #D7B96F;}
+.sn-i:hover{background:rgba(255,255,255,.10);}
+.bn-i.on{color:var(--navy);} .row-av{background:var(--navy-soft);color:var(--navy);}
+.bar i{background:linear-gradient(90deg,#8050A3,#C7A65A);}
+.opt.on{border-color:var(--navy);background:var(--navy-soft);}
+.opt.on .dot{border-color:var(--navy);} .tab.on{color:var(--navy);}

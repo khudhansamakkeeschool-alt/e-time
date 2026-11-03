@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ระบบลงเวลาปฏิบัติราชการ</title>
-<meta name="theme-color" content="#1E3A8A">
+<meta name="theme-color" content="#6B3A8F">
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +40,7 @@
 <!-- ======================= กำลังเปิดระบบ ======================= -->
 <div id="vBoot" class="auth">
   <div class="auth-box"><div class="auth-card" style="text-align:center">
-    <div class="auth-logo"><svg class="ic"><use href="#i-clock"/></svg></div>
+    <div class="auth-logo"><img class="brand-emblem auth-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
     <h1>ระบบลงเวลาปฏิบัติราชการ</h1>
     <p class="auth-sub" id="bootMsg">กำลังเชื่อมต่อฐานข้อมูล…</p>
     <div id="bootErr" class="alert a-err"></div>
@@ -49,7 +51,7 @@
 <!-- ======================= ติดตั้งครั้งแรก ======================= -->
 <div id="vSetup" class="auth hide">
   <div class="auth-box"><div class="auth-card">
-    <div class="auth-logo"><svg class="ic"><use href="#i-gear"/></svg></div>
+    <div class="auth-logo"><img class="brand-emblem auth-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
     <h1>ติดตั้งระบบครั้งแรก</h1>
     <p class="auth-sub">ยังไม่มีผู้ใช้ในระบบ สร้างบัญชีผู้ดูแลระบบเพื่อเริ่มต้น</p>
     <div id="suMsg" class="alert a-err"></div>
@@ -75,7 +77,7 @@
 <div id="vLogin" class="auth hide">
   <div class="auth-box">
     <div class="auth-card">
-      <div class="auth-logo"><svg class="ic"><use href="#i-clock"/></svg></div>
+      <div class="auth-logo"><img class="brand-emblem auth-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
       <h1>ระบบลงเวลาปฏิบัติราชการ</h1>
       <p class="auth-sub" id="lgSchool"></p>
       <div id="lgMsg" class="alert a-err"></div>
@@ -95,7 +97,7 @@
 <!-- ======================= เปลี่ยนรหัส PIN ======================= -->
 <div id="vPin" class="auth hide">
   <div class="auth-box"><div class="auth-card">
-    <div class="auth-logo"><svg class="ic"><use href="#i-key"/></svg></div>
+    <div class="auth-logo"><img class="brand-emblem auth-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
     <h1>ตั้งรหัส PIN ใหม่</h1>
     <p class="auth-sub">เปลี่ยนรหัสก่อนเริ่มใช้งานครั้งแรก</p>
     <div id="cpMsg" class="alert a-err"></div>
@@ -116,7 +118,7 @@
 
   <aside class="side">
     <div class="side-brand">
-      <div class="tb-mark" style="display:flex"><svg class="ic"><use href="#i-clock"/></svg></div>
+      <div class="tb-mark"><img class="brand-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
       <div style="min-width:0">
         <div class="tb-t1">ลงเวลาปฏิบัติราชการ</div>
         <div class="tb-t2" id="sdSchool"></div>
@@ -131,7 +133,7 @@
   <div class="main">
     <header class="topbar">
       <div class="tb-l">
-        <div class="tb-mark"><svg class="ic"><use href="#i-clock"/></svg></div>
+        <div class="tb-mark"><img class="brand-emblem" src="icon-192.png" alt="ตราสัญลักษณ์"></div>
         <div style="min-width:0">
           <div class="tb-t1" id="tbTitle">ลงเวลาปฏิบัติราชการ</div>
           <div class="tb-t2" id="tbSchool"></div>
